@@ -35,12 +35,11 @@ def depth_first_search(current, compare, pathlist=[]):
             else:
                 delimiter = "]["
                 fancy_str = delimiter.join(str(x) for x in pathlist)
-                print("\033[36m" + f"{sys.argv[1]}[{fancy_str}]:{current}", "\033[0m")
-                print(
-                    "\033[95m"
-                    + f"{sys.argv[2]}[{fancy_str}]:{get_by_path(compare, pathlist)}"
-                    + "\033[0m"
-                )
+                print(f"json[{fancy_str}]")
+                print("\033[36m" + f"< {current}", "\033[0m")
+                print("\033[95m" + f"> {get_by_path(compare, pathlist)}" + "\033[0m")
+                print("---")
+                print("")
                 pathlist.pop()
         except:
             print(pathlist)
