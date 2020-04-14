@@ -1,8 +1,7 @@
+#!/usr/bin/python3
+
 import json
 import sys
-
-with open("./simple.json") as file1:
-    json_simple = json.load(file1)
 
 with open(sys.argv[1]) as file1:
     json1 = json.load(file1)
@@ -20,7 +19,7 @@ def get_by_path(dict_to_check, list_of_keys):
             dict_to_check = dict_to_check[k]
         return dict_to_check
     except:
-        return "ERROR: Value is undefined"
+        return "undefined"
 
 
 def depth_first_search(current, compare, pathlist=[]):
@@ -45,8 +44,6 @@ def depth_first_search(current, compare, pathlist=[]):
             print(pathlist)
             pathlist.pop()
             error_count += 1
-            if error_count > 5:
-                exit()
 
     elif isinstance(current, list):
         for index, item in enumerate(current):

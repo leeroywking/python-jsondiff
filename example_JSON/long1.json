@@ -5,14 +5,6 @@
     "guid": "b04ef317-9a6d-4013-b694-dd5c1ad58389",
     "isActive": false,
 
-
-
-
-
-
-
-
-
     "balance": "$1,506.64",
     "picture": "http://placehold.it/32x32",
     "age": 34,
@@ -22,15 +14,10 @@
       "last": "Cannon"
     },
     "Zanzibar": "I'll order it!",
-    "newArray":[10,11,12],
+    "newArray": [10, 11, 12],
     "company": "UNCORP",
     "email": "danielle.cannon@uncorp.tv",
     "phone": "+1 (870) 482-3649",
-
-
-
-
-
     "address": "534 Hunts Lane, Adamstown, Texas, 3205",
     "about": "Elit adipisicing officia cupidatat amet non commodo enim adipisicing tempor velit pariatur. Ut enim tempor voluptate sunt duis. Laborum excepteur elit officia magna exercitation nulla culpa dolore officia velit incididunt. Commodo laborum minim Lorem reprehenderit nostrud. Incididunt sunt occaecat culpa et laborum laboris enim adipisicing ut cillum minim do non. Dolor amet duis elit commodo laboris mollit et consectetur ut. Dolor pariatur esse commodo ad ea cupidatat officia aliqua aliquip laboris.",
     "registered": "Wednesday, November 26, 2014 2:31 PM",
@@ -40,10 +27,6 @@
       "mollit",
       "Lorem",
       "dolor",
-
-
-
-
       "sunt",
       "cillum",
       "consectetur",
@@ -84,10 +67,6 @@
       "do",
       "sint",
       "consequat",
-
-
-
-
       "fugiat",
       "proident",
       "voluptate",
@@ -133,10 +112,6 @@
       "aliquip",
       "dolore",
       "minim",
-
-
-
-
       "qui",
       "officia",
       "aliquip",
@@ -150,18 +125,7 @@
       "duis",
       "velit"
     ],
-    "range": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     "friends": [
       {
         "friends": [
@@ -177,9 +141,6 @@
             "id": 2,
             "name": "Pickett Conrad"
           },
-
-
-
 
           {
             "id": 3,
@@ -221,9 +182,6 @@
             "id": 12,
             "name": "Sheree Maynard"
           },
-
-
-
 
           {
             "id": 13,
@@ -40698,18 +40656,7 @@
       "pariatur",
       "aliquip"
     ],
-    "range": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     "friends": [
       {
         "friends": [
@@ -81238,18 +81185,7 @@
       "quis",
       "non"
     ],
-    "range": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     "friends": [
       {
         "friends": [
@@ -121778,18 +121714,7 @@
       "duis",
       "ipsum"
     ],
-    "range": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     "friends": [
       {
         "friends": [
@@ -162318,18 +162243,7 @@
       "elit",
       "veniam"
     ],
-    "range": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     "friends": [
       {
         "friends": [
