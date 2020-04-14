@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import json
 import sys
 
@@ -17,7 +19,7 @@ def get_by_path(dict_to_check, list_of_keys):
             dict_to_check = dict_to_check[k]
         return dict_to_check
     except:
-        return "ERROR: Value is undefined"
+        return "undefined"
 
 
 def print_message(current, compare, current_path_list):
@@ -44,16 +46,14 @@ def depth_first_search(current, compare, pathlist):
                 print_message(current, compare, pathlist)
 
         except:
-            print(current_path_list)
+            print(pathlist)
             error_count += 1
-            if error_count > 5:
-                exit()
 
     elif isinstance(current, list):
         current.reverse()  # so items stack in correct order
         for index, item in enumerate(current):
             current_path_list = pathlist.copy()
-            current_path_list.append(len(current) - index -1) # reverse index
+            current_path_list.append(len(current) - index - 1)  # reverse index
             stack.append((item, compare, current_path_list))
 
     elif isinstance(current, dict):
